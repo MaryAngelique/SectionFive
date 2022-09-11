@@ -59,6 +59,19 @@ public class SwitchStatement {
                 System.out.println("Could not find A, B, C, D or E");
                 break;
         }
+
+        String month = "JuNE";
+        switch(month.toUpperCase()) {
+            case "JANUARY":
+                System.out.println("Jan");
+                break;
+            case "JUNE":
+                System.out.println("Jun");
+                break;
+            default:
+                System.out.println("Not sure");
+        }
+
     }
 
 }
