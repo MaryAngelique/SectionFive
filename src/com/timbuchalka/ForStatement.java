@@ -19,6 +19,16 @@ public class ForStatement {
             System.out.println("10,000 at " + i + "% interest = " + String.format("%.2f",calculateInterest(10000.0, i)));
         }
 
+        System.out.println("****************");
+
+        // How would you modify the for loop above to do the same thing as
+        // shown but to start from 8% and work back to 2%
+        for(int i=8; i>=2; i--) {
+            System.out.println("10,000 at " + i + "% interest = " + String.format("%.2f",calculateInterest(10000.0, i)));
+        }
+
+
+
     }
 
     public static boolean isPrime(int n) {
