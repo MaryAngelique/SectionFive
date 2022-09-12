@@ -44,4 +44,12 @@ public class WhileAndDoWhileStatements {
     // an even number or not.
     // return true if an even number, otherwise return false;
 
+    public static boolean isEvenNumber(int number) {
+        if((number % 2)  == 0) {
+            return true;
+
+        } else {
+            return false;
+        }
+    }
 }
