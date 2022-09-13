@@ -9,6 +9,9 @@ public class ParsingValuesFromAString {
         double number = Double.parseDouble(numberAsString);
         System.out.println("number = " + number);
 
+        numberAsString += 1;
+        number += 1;
+
 
     }
 
