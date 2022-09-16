@@ -12,7 +12,8 @@ public class ParsingValuesFromAString {
         numberAsString += 1;
         number += 1;
 
-
+        System.out.println("numberAsString = " + numberAsString);
+        System.out.println("number = " + number);
     }
 
 }
