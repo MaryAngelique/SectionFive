@@ -7,12 +7,10 @@ public class ReadingUserInput {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your name: ");
-        String name = scanner.nextLine();
 
-        System.out.println("Your name is " + name);
+        System.out.println("Enter your birth year: ");
+        int birthYear = scanner.nextInt();
 
-        scanner.close();
 
     }
 
