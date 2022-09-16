@@ -11,6 +11,9 @@ public class ReadingUserInput {
         System.out.println("Enter your birth year: ");
         int birthYear = scanner.nextInt();
 
+        System.out.println("Enter your name: ");
+        String name = scanner.nextLine();
+        int age = 2018 - birthYear;
 
     }
 
