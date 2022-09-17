@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d39f0059-fdec-43b9-b8dd-34ee90a9c53f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/timbuchalka/ReadingUserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/timbuchalka/ReadingUserInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,5 +80,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SectionFive$ReadingUserInput.ic" NAME="ReadingUserInput Coverage Results" MODIFIED="1663361387701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.timbuchalka.*</FILTER>
+    </SUITE>
   </component>
 </project>
