@@ -25,8 +25,17 @@ public class MinAndMaxChallenge {
             System.out.println("Enter number:");
             boolean isAnInt = scanner.hasNextInt();
 
+            if(isAnInt) {
 
+
+            } else {
+
+            }
+
+            scanner.nextLine(); // handle input
         }
+
+        scanner.close();
 
     }
 }
