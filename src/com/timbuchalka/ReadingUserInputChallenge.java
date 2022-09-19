@@ -23,7 +23,7 @@ public class ReadingUserInputChallenge {
         int counter = 0;
         int sum = 0;
 
-        while(true) {
+        while(counter < 10) {
             int order = counter + 1;
             System.out.println("Enter number #" + order + ":");
 
