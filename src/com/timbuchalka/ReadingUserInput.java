@@ -21,7 +21,7 @@ public class ReadingUserInput {
             System.out.println("Your name is " + name + ", and you are " + age + "years old.");
 
         } else {
-
+            System.out.println("Invalid birth year");
         }
 
         System.out.println("Your name is " + name + ", and you are " + age + "years old");
