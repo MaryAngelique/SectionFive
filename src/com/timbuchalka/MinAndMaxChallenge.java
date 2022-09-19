@@ -38,12 +38,13 @@ public class MinAndMaxChallenge {
                 }
 
             } else {
-
+                break;
             }
 
             scanner.nextLine(); // handle input
         }
 
+        System.out.println("min= "+ min + ", max= " + max);
         scanner.close();
 
     }
