@@ -27,6 +27,15 @@ public class MinAndMaxChallenge {
 
             if(isAnInt) {
 
+                int number = scanner.nextInt();
+
+                if(number > max) {
+                    max = number;
+                }
+
+                if(number < min) {
+                    min = number;
+                }
 
             } else {
 
