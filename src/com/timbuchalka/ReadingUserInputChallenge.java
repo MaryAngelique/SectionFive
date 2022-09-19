@@ -27,6 +27,15 @@ public class ReadingUserInputChallenge {
             int order = counter + 1;
             System.out.println("Enter number #" + order + ":");
 
+            boolean isAnInt = scanner.hasNextInt();
+
+            if(isAnInt) {
+
+
+            } else {
+                System.out.println("Invalid number");
+            }
+
         }
 
         scanner.close();
