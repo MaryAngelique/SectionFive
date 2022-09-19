@@ -16,4 +16,16 @@ public class ReadingUserInputChallenge {
 //    -Close the scanner after you donÅft need it anymore.
 //    -Create a project with the name ReadingUserInputChallenge.
 
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        int counter = 0;
+        int sum = 0;
+
+
+        scanner.close();
+
+    }
+
 }
