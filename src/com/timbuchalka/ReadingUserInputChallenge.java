@@ -36,6 +36,7 @@ public class ReadingUserInputChallenge {
                 System.out.println("Invalid number");
             }
 
+            scanner.nextLine(); // handle end of line (enter key)
         }
 
         scanner.close();
