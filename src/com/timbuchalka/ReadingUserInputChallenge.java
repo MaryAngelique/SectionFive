@@ -30,7 +30,9 @@ public class ReadingUserInputChallenge {
             boolean isAnInt = scanner.hasNextInt();
 
             if(isAnInt) {
-
+                int number = scanner.nextInt();
+                counter++;
+                sum += number;
 
             } else {
                 System.out.println("Invalid number");
@@ -39,6 +41,7 @@ public class ReadingUserInputChallenge {
             scanner.nextLine(); // handle end of line (enter key)
         }
 
+        System.out.println("sum = " + sum);
         scanner.close();
 
     }
