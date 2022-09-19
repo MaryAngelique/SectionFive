@@ -20,8 +20,13 @@ public class MinAndMaxChallenge {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
 
+        while(true) {
 
-        scanner.close();
+            System.out.println("Enter number:");
+            boolean isAnInt = scanner.hasNextInt();
+
+
+        }
 
     }
 }
